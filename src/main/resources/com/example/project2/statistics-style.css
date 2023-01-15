@@ -1,0 +1,14 @@
+#properties {
+    -fx-background-color: #D4BD4A;
+}
+
+#topLabel {
+    -fx-text-fill: #f5f1f1;
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-fill-width: true;
+    -fx-background-color: #976A0F;
+    -fx-text-fill: #ffffff;
+}

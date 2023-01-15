@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.5, 0.5" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane fx:id="GameControl" xmlns:fx="http://javafx.com/fxml">
+        <Button fx:id="preyControl" styleClass="button" text="Add Prey" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="5"/>
+        <Button fx:id="predatorControl" styleClass="button" text="Add Predator" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="35"/>
+    </AnchorPane>
+
+    <AnchorPane fx:id="GamePane" xmlns:fx="http://javafx.com/fxml">
+        <Canvas fx:id="GameMap" />
+        <Canvas fx:id="Textures" />
+    </AnchorPane>
+</SplitPane>
